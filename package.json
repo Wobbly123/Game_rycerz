@@ -1,0 +1,14 @@
+{
+  "name": "mroczny-rycerz",
+  "version": "1.0.0",
+  "description": "Platformówka dark fantasy w stylu Mario (HTML5 canvas + Electron)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-packager . MrocznyRycerz --platform=win32 --arch=x64 --out=dist --overwrite --asar --ignore=\"node_modules|dist\""
+  },
+  "devDependencies": {
+    "electron": "33.2.1",
+    "@electron/packager": "^20.3.0"
+  }
+}
